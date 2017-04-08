@@ -1,0 +1,21 @@
+{
+    "name": "Node PDF Demo",
+    "version": "0.0.0",
+    "author": {
+        "name": "Josh Rouwhorst",
+        "url": "http://joshrouwhorst.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joshrouwhorst/Node-PDF-Demo.git"
+    },
+    "license": {
+        "type": "MIT",
+        "url": "https://www.opensource.org/licenses/mit-license.php"
+    },
+    "dependencies": {
+        "image-size": "^0.5.1",
+        "pdfkit": "^0.8.0",
+        "q": "^1.5.0"
+    }
+}
