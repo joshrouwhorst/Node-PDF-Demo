@@ -39,6 +39,8 @@ function setOptions() {
             case '-out':
                 opts.outgoingFile = args[++i];
                 break;
+            default:
+                break;
         }
     }
 }
