@@ -5,10 +5,18 @@ var imageSize = require('image-size');
 
 var opts = {};
 
+// Set options provided by user
 setOptions();
+
+// Collect file names from directory
 getImageFiles().then(function (images) {
+
+    // Collect image data
     getImageData(images).then(function (images) {
+
+        // Create the PDF document
         makePdf(images).then(function () {
+            // Finished
             console.log('Done!');
             process.exit(0);
         }, fatalError);
